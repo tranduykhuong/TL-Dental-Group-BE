@@ -15,6 +15,8 @@
 	<description>Project backend with java spring boot by DreamTech for TL Dental Group</description>
 	<properties>
 		<java.version>17</java.version>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.release>17</maven.compiler.release>
 	</properties>
 	<dependencies>
 
@@ -71,8 +73,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+                	<source>17</source>
+                	<target>17</target>
+            	</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>	
 
 </project>
