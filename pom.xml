@@ -14,9 +14,7 @@
 	<name>tldental</name>
 	<description>Project backend with java spring boot by DreamTech for TL Dental Group</description>
 	<properties>
-		<java.version>9</java.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 
