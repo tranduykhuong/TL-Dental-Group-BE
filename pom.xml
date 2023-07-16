@@ -14,8 +14,8 @@
 	<name>tldental</name>
 	<description>Project backend with java spring boot by DreamTech for TL Dental Group</description>
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.release>1.8</maven.compiler.release>
 	</properties>
 	<dependencies>
 
