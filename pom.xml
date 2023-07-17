@@ -14,9 +14,8 @@
 	<name>tldental</name>
 	<description>Project backend with java spring boot by DreamTech for TL Dental Group</description>
 	<properties>
-		<java.version>11</java.version>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.release>11</maven.compiler.release>
 	</properties>
 	<dependencies>
 
@@ -74,15 +73,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
+                	<source>11</source>
+                	<target>11</target>
+            	</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>	
 
 </project>
